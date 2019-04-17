@@ -1,0 +1,23 @@
+{
+  "name": "bot-controle-saldo",
+  "version": "0.0.1",
+  "description": "A simple Telegram bot made with Telegraf lib",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "telegraf": "^3.27.1",
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch"
+  ]
+}
